@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Foot</title>
+  <style>
+    body {
+      background: #0d1117;
+      color: white;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    iframe {
+      width: 80%;
+      height: 480px;
+      border: none;
+      margin-top: 30px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚽ Live Foot</h1>
+  <p>Regarde le match en direct ci-dessous 👇</p>
+  
+  <iframe src="https://www.yacine-tv.com/watch/24881/1377914/atalanta-vs-como" allowfullscreen></iframe>
+
+  <p>Dernière mise à jour automatique : <span id="date"></span></p>
+
+  <script>
+    document.getElementById("date").textContent = new Date().toLocaleString();
+  </script>
+</body>
+</html>
