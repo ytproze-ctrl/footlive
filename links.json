@@ -2,17 +2,17 @@
   {
     "title": "Match 1",
     "type": "youtube",
-    "link": "https://www.hesgoal.watch/hd-2"
+    "embed": "https://www.hesgoal.watch/hd-2"
   },
   {
     "title": "Match 2",
     "type": "twitch",
-    "link": "https://www.hesgoal.watch/stream-1"
+    "embed": "https://www.hesgoal.watch/stream-1"
   },
   {
     "title": "site",
     "type": "hls",
-    "link": "https://www.hesgoal.watch/hd-1"
+    "embed": "https://www.hesgoal.watch/hd-1"
   }
 ]
 
