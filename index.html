@@ -10,14 +10,60 @@
       color: white;
       text-align: center;
       font-family: sans-serif;
-    }
-    iframe {
-      width: 80%;
-      height: 480px;
-      border: none;
-      margin-top: 30px;
-      border-radius: 12px;
-    }
+ <style>
+  body {
+    background-color: #0d1117;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 20px 0;
+  }
+
+  /* Conteneur des cartes */
+  .grid {
+    display: flex;
+    flex-direction: column;   /* une carte par ligne */
+    align-items: center;
+    gap: 40px;                /* espace entre les cartes */
+    padding: 20px;
+  }
+
+  /* Style de chaque carte */
+  .card {
+    width: 100%;              /* pleine largeur */
+    max-width: 1200px;        /* limite sur grands écrans */
+    height: 85vh;             /* presque toute la hauteur de l’écran */
+    background: #161b22;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  iframe, video {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background: #000;
+    object-fit: cover;
+  }
+
+  h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+</style>
+
+
   </style>
 </head>
 <body>
