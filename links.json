@@ -2,7 +2,7 @@
   {
     "title": "Match 1",
     "type": "youtube",
-    "embed": "https://www.hesgoal.watch/hd-2"
+    "link": "https://www.hesgoal.watch/hd-2"
   },
   {
     "title": "Match 2 : Marseille vs Lille",
@@ -12,7 +12,7 @@
   {
     "title": "site",
     "type": "hls",
-    "embed": "https://www.hesgoal.watch/hd-1"
+    "link": "https://www.hesgoal.watch/hd-1"
   }
 ]
 
