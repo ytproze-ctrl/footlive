@@ -1,19 +1,10 @@
 [
   {
-    "title": "Match 1 : Newcastle vs Nottingham Forest ",
+    "title": "Match 1 : "mon site",
     "type": "football",
-    "embed": "https://www.hesgoal.watch/stream-1"
+    "embed": "https://www.hesgoal.watch"
   },
-  {
-    "title": "Match 2 : lyon vs toulouse",
-    "type": "youtube",
-    "embed": "https://www.hesgoal.watch/sport-tv3/"
-  },
-  {
-    "title": "Match 3 : Bordeaux vs Nice",
-    "type": "hls",
-    "embed": "https://www.hesgoal.watch/sport-tv3/"
-  }
+
 ]
 
 
