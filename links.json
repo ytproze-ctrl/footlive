@@ -16,6 +16,25 @@
   }
 ]
 
+[
+  {
+    "title": "Match 1",
+    "type": "youtube",
+    "embed": "https://www.hesgoal.watch/hd-2"
+  },
+  {
+    "title": "Match 2",
+    "type": "twitch",
+    "embed": "https://www.hesgoal.watch/stream-1"
+  },
+  {
+    "title": "Mon site perso",
+    "type": "site",
+    "embed": "https://www.hesgoal.watch"  // 👈 ton URL ici
+  }
+]
+
+
 
 
 
