@@ -15,25 +15,34 @@
     h1 {
       margin-bottom: 24px;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-      gap: 30px;
-      margin-top: 30px;
-    }
-    .card {
-      background: #161b22;
-      border-radius: 30px;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
-    iframe, video {
-      width: 100%;
-      height: 250px;
-      border-radius: 10px;
-      border: none;
-      background: #000;
-    }
+  .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); /* plus large */
+  gap: 30px;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 75vh; /* augmente la hauteur */
+  background: #161b22;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+iframe, video {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  background: black;
+}
+
     h3 {
       margin-top: 10px;
       font-size: 1.1em;
