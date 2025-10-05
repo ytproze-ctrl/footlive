@@ -1,7 +1,19 @@
 [
-  {"t":"Match 1 : Newcastle vs Nottingham Forest","y":"football","u":"https://www.hesgoal.watch/stream-1"},
-  {"t":"Match 2 : Lyon vs Toulouse","y":"youtube","u":"https://www.hesgoal.watch/sport-tv3/"},
-  {"t":"Match 3 : Bordeaux vs Nice","y":"hls","u":"https://www.hesgoal.watch/sport-tv3/"}
+  {
+    "title": "Match 1 : Newcastle vs Nottingham Forest ",
+    "type": "football",
+    "embed": "https://www.hesgoal.watch/stream-1"
+  },
+  {
+    "title": "Match 2 : lyon vs toulouse",
+    "type": "youtube",
+    "embed": "https://www.hesgoal.watch/sport-tv3/"
+  },
+  {
+    "title": "Match 3 : Bordeaux vs Nice",
+    "type": "hls",
+    "embed": "https://www.hesgoal.watch/sport-tv3/"
+  }
 ]
 
 
