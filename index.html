@@ -88,6 +88,25 @@ iframe, video {
 </body>
 </html>
 
+<script>
+fetch('links2.json')
+  .then(response => response.json())
+  .then(data => {
+    const grid = document.querySelector('.grid');
+    data.forEach(link => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+        <h3>${link.title}</h3>
+        <iframe src="${link.embed}" allowfullscreen></iframe>
+      `;
+      grid.appendChild(card);
+    });
+  })
+  .catch(err => console.error("Erreur de chargement du JSON :", err));
+</script>
+
+
 
   
 
